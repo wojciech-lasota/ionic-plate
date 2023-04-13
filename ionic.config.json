@@ -1,0 +1,7 @@
+{
+  "name": "vamos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
