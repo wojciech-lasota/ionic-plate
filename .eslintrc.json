@@ -12,6 +12,7 @@
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
+      "plugins": ["import"],
       "rules": {
         "@angular-eslint/component-class-suffix": [
           "error",
@@ -33,6 +34,13 @@
             "type": "attribute",
             "prefix": "app",
             "style": "camelCase"
+          }
+        ],
+        "import/order": [
+          "error",
+          {
+            "groups": [["builtin", "external"], ["internal", "parent", "sibling", "index"]],
+            "newlines-between": "always"
           }
         ]
       }
