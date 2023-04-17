@@ -1,5 +1,9 @@
 {
     "recommendations": [
-      "ionic.ionic"
+        "ionic.ionic",
+        "esbenp.prettier-vscode",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "aaron-bond.better-comments"
     ]
 }
